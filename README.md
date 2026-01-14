@@ -3,7 +3,7 @@
 This professionally-oriented website functions as a comprehensive, dynamic expanded resume and data science portfolio aimed at future employers and academic program admissions. The site, consisting of five core pages, is designed to synthesize Sia's academic skills, extensive research experience, practical web development abilities, and community involvement.
 
 ## Live Demo
-https://xq675.github.io/portfolio/
+https://xq675.github.io/
 
 ## Technologies
 - HTML
