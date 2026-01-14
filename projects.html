@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sia Qiu's Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/png" href="images/paper.png">
+		<meta name="description" content="Sia Qiu's projects, research experience, community involvement, and education achievements">
+		<meta name="keywords" content="sia qiu, resume, research, education, nyu">
+	</head>
+
+	<body>
+		<header>
+			<h1><a href="index.html">Sia Qiu's Portfolio</a></h1>
+
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="projects.html">Projects</a>
+				<a href="research.html">Research</a>
+				<a href="community.html">Community</a>
+				<a href="education.html">Education & Honors</a>
+			</nav>
+
+			<svg id='menuIcon' viewBox="0 0 30 30" role="button">
+		        <title>Navigation Icon</title>
+		        <line x1="8" x2="22" y1="12" y2="12" stroke-linecap="round" />
+		        <line x1="8" x2="22" y1="18" y2="18" stroke-linecap="round" />
+			</svg>
+		</header>
+
+		<main>
+			<h2>Projects</h2>
+
+			<section>
+				<p class="head">Jump to:</p>
+				
+				<a href="#miyazaki-hayao">Miyazaki Hayao: The Living Legend of Anime</a>
+				<a href="#about-me">About Me: Sia Qiu</a>
+			</section>
+
+			<section id="miyazaki-hayao" class="title">
+				<h3>Miyazaki Hayao: The Living Legend of Anime</h3>
+
+				<p>Nov 2025</p>
+			</section>
+			
+			<section class="content">
+				<article>
+					<p class="head">Description</p>
+
+					<p>This is a multi-page academic website that explores the life, beliefs, and cinematic themes of animator Miyazaki Hayao. The site is divided into three key areas: The World of Miyazaki Hayao, Beliefs Behind the Scenes, and A Mix of Real and Fantasy. The design uses semantic articles and sections to present cited research and includes an interactive quiz element on each page to engage users with the material.</p>
+				</article>
+
+				<article>
+					<p class="head">Key Features</p>
+
+					<p>This project demonstrates compliance with modern responsive design and JavaScript interactions.</p>
+
+					<ul>
+						<li>Responsive Layout: each page is built using CSS grid layout and employs media queries to optimize the structure for mobile device, tablet, and desktop viewports</li>
+						<li>JavaScript Interactivity: the site uses DOM queries to update page content, change CSS property, and provide interactive navigation menu using SVG</li>
+					</ul>
+				</article>
+
+				<figure>
+					<a href="miyazaki/index.html">
+						<img 
+						src="images/miyazaki-300.jpg" 
+						width="300" height="249" 
+						alt="Cover of Miyazaki Hayao project"
+						srcset="
+							images/miyazaki-300.jpg 300w,
+							images/miyazaki-600.jpg 600w,
+							images/miyazaki-900.jpg 900w"
+						sizes="
+							(max-width: 150px) 150px,
+							(max-width: 300px) 300px,
+							(max-width: 600px) 600px,
+							(max-width: 900px) 900px,
+							(max-width: 1800px) 600px,
+							900px">
+					</a>
+
+					<p class="source">View more: <a href="https://xq675.github.io/miyazaki_hayao/">Live Demo</a></p>
+					<p class="source">View more: <a href="https://github.com/xq675/miyazaki_hayao">GitHub</a></p>
+				</figure>
+			</section>
+
+			<section id="about-me" class="title">
+				<h3>About Me: Sia Qiu</h3>
+
+				<p>Oct 2025</p>
+			</section>
+
+			<section class="content">
+				<article>
+					<p class="head">Description</p>
+
+					<p>This project is a personal, multi-page website designed to introduce Sia's background, interests, and creative pursuits. The site features three main sections using three different pages, including the Introduction page, the Music page, and the Travel page.</p>
+				</article>
+
+				<article>
+					<p class="head">Key Features</p>
+
+					<p>This project demonstrates fundamental front-end development using a single CSS stylesheet.</p>
+
+					<ul>
+						<li>Responsive Images: “srcset” attribute is used to provide responsive raster graphics to optimize load time and display quality</li>
+						<li>Web Font and Links: a self-hosted font is applied using CSS, and navigational links are customized with various link states</li>
+					</ul>
+				</article>
+
+				<figure>
+					<a href="me/index.html">
+						<img 
+						src="images/about_me-300.jpg" 
+						width="300" height="171" 
+						alt="Cover of About Me project"
+						srcset="
+							images/about_me-300.jpg 300w,
+							images/about_me-600.jpg 600w,
+							images/about_me-900.jpg 900w"
+						sizes="
+							(max-width: 150px) 150px,
+							(max-width: 300px) 300px,
+							(max-width: 600px) 600px,
+							(max-width: 900px) 900px,
+							(max-width: 1800px) 600px,
+							900px">
+					</a>
+
+					<p class="source">View more: <a href="https://xq675.github.io/about_me/">Live Demo</a></p>
+					<p class="source">View more: <a href="https://github.com/xq675/about_me">GitHub</a></p>
+				</figure>
+			</section>
+		</main>
+
+		<footer>
+			<a href="https://www.nyu.edu/">Introduction to Web Design</a>
+		</footer>
+
+		<script src="interaction.js"></script>
+	</body>
+</html>

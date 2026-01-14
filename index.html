@@ -1,25 +1,104 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sia Qiu's Portfolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/png" href="images/paper.png">
+		<meta name="description" content="Sia Qiu's projects, research experience, community involvement, and education achievements">
+		<meta name="keywords" content="sia qiu, resume, research, education, nyu">
+	</head>
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Introduction to Web Design</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-    <style>
-      h1, p {font-family: Quicksand;}
-      h1 {font-size: 2.2em}
-      p {font-size: 1.5em}
-    </style>
-  </head>
+	<body>
+		<header>
+			<h1><a href="index.html">Sia Qiu's Portfolio</a></h1>
 
-  <body>
-    <h1>Introduction to Web Design</h1>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="projects.html">Projects</a>
+				<a href="research.html">Research</a>
+				<a href="community.html">Community</a>
+				<a href="education.html">Education & Honors</a>
+			</nav>
 
-    <img src="network-brackets.png" width="600" height="400" alt="Network brackets illustration">
+			<svg id='menuIcon' viewBox="0 0 30 30" role="button">
+		        <title>Navigation Icon</title>
+		        <line x1="8" x2="22" y1="12" y2="12" stroke-linecap="round" />
+		        <line x1="8" x2="22" y1="18" y2="18" stroke-linecap="round" />
+			</svg>
+		</header>
 
-    <p>This course provides a comprehensive foundation in design and code for the open web. There are two primary aspects to Introduction to Web Design—the first is learning how to build websites and prepare the visual and audio elements that comprise them; the second is understanding concepts behind computers in general and the web in particular.</p>
+		<main>
+			<h2>Home</h2>
 
-    <p>Topics include markup language, style language, web graphics, and browser-based interactivity. In addition to coding with HTML, CSS, and JavaScript, we utilize open-source software to produce media optimized for the web browser. Web standards, accessibility, and open source are guiding principles of the course, which integrates creativity with the fundamentals of front-end web development.</p>
-  </body>
+			<section class="title">
+				<h3>About</h3>
+			</section>
+
+			<section class="content">
+				<article>
+					<p>Xinran (Sia) Qiu is an ambitious Data Science student at New York University's College of Arts and Science with a perfect GPA, expected to graduate in May 2028. She has hands-on research experience, serving as a Research Assistant at the Institute of Public Knowledge. Sia is also adept at bridging her analytical skills with cultural and business interests, as seen in her research publication analyzing global patterns of K-pop popularity using Spotify streaming data. Her technical expertise is well complemented by strong communication skills developed through various community involvement, such as her role as Lead Soprano in NYU's World Voices Collective and as volunteer performer at the Mount Sinai Hospital through Solis and Luna Arts Organization. Sia is also fluent in both English and Mandarin.</p>
+
+					<p class="head">Contact</p>
+					<ul>
+						<li>Email: xq675@nyu.edu</li>
+						<li>Tel: +1 (301) 919-6812</li>
+						<li>Base: New York, NY</li>
+						<li><a href="https://www.linkedin.com/in/siaqiu/">LinkedIn</a></li>
+						<li><a href="https://youtube.com/@xinranqiu4233?si=A1tErs9U8xsUMzfr">YouTube Channel</a></li>
+					</ul>
+				</article>
+
+				<article>
+					<p class="head">Relevant Coursework</p>
+					<ul>
+						<li>Computer Science</li>
+						<li>Web Design</li>
+						<li>Data Science</li>
+						<li>Linear Algebra</li>
+						<li>Calculus II</li>
+						<li>Business Structure of the Music Industry</li>
+						<li>Microeconomics</li>
+					</ul>
+
+					<p class="head">Technologies</p>
+					<ul>
+						<li>Python</li>
+						<li>Java</li>
+						<li>JavaScript</li>
+						<li>Latex</li>
+						<li>HTML</li>
+						<li>CSS</li>
+					</ul>
+				</article>
+
+				<figure>
+					<a href="https://www.linkedin.com/in/siaqiu/">
+						<img 
+						src="images/portrait-300.jpg" 
+						width="300" height="340" 
+						alt="Portrait of Sia Qiu"
+						srcset="
+							images/portrait-300.jpg 300w,
+							images/portrait-600.jpg 600w,
+							images/portrait-900.jpg 900w"
+						sizes="
+							(max-width: 150px) 150px,
+							(max-width: 300px) 300px,
+							(max-width: 600px) 600px,
+							(max-width: 900px) 900px,
+							(max-width: 1800px) 600px,
+							900px">
+					</a>
+				</figure>
+			</section>
+		</main>
+
+		<footer>
+			<a href="https://www.nyu.edu/">Introduction to Web Design</a>
+		</footer>
+
+		<script src="interaction.js"></script>
+	</body>
 </html>
