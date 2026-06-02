@@ -45,7 +45,7 @@ nav {
 }
 
 header.expand {
-	height: 12em;
+	height: 13em;
 }
 
 nav.expand {
@@ -130,6 +130,11 @@ section.title p, h3 {
 	margin: 0;
 }
 
+div.technologies {
+	display: flex;
+	justify-content: space-between;
+}
+
 p {
 	margin-top: 0;
 	font-size: 1em;
@@ -138,6 +143,10 @@ p {
 p.head {
 	margin-bottom: 0.4em;
 	font-weight: bold;
+}
+
+p.subhead {
+	margin-bottom: 0.4em;
 }
 
 p.source {
